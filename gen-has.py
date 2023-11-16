@@ -1,11 +1,7 @@
 # Hasla
 import random
 dlugoschasla = 0
-
-
 haslo = []
-
-
 if dlugoschasla < 8:
     dlugoschasla = int(input("Wypisz dlugosc hasla (min 8): "))
 
