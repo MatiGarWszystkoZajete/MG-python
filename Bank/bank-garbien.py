@@ -9,10 +9,10 @@ def stworz_konto():
 
     baza.write(imie)
     baza.write(nazwisko)
-    baza.write(stan_konta)
+    baza.write(stan_konta,'\n') # nie dziala bo nie przenosie do linijki innej
     
     baza.close()
-    print("Stworzono konto", *dane)
+    print("Stworzono konto:", *dane)
 stworz_konto()
 
 
